@@ -1,0 +1,125 @@
+body {
+	background-color: white;
+}
+
+img.logo {
+
+	width: 20%;
+    height: auto;
+	display: block;
+    margin: auto;
+
+
+}
+#header {
+	position: auto;
+}
+
+a {
+	text-decoration: none;
+	font-size: 12px;
+	color: black;
+	}
+
+#knapp {
+	height: 100px;
+	width: auto;
+	margin: auto;
+	display: block;
+}
+
+
+#about{
+font-size: 12px;
+color: black;
+width: 700px;
+position: auto;
+padding-left: 360px
+
+}
+#psnack {
+ font-size: 35px;
+ color: #3f8b93;
+ font-family: Calibri;
+ font-weight: bolder;
+ text-transform: uppercase;
+}
+
+.main {
+	text-align: center; 
+	padding-top: 40px
+}
+
+ p {
+ 	color: #f442b6;
+ 	font-family: calibri;
+ 	font-size: 20px;
+ 	top-margin: 50px;
+ 	text-align: center;
+ }
+
+#menu2:hover {
+	color: black;
+}
+
+#menu2 {
+	color: white;
+}
+
+.meny2 {
+	list-style-type: none;
+	font-family: Calibri; 
+	margin-right:60px;
+	font-size: 20px;
+	float: left;
+	color: white;
+}
+
+.meny2:hover {
+	color: yellow;
+}
+
+#vald {
+	color: #646363;
+}
+
+#menu1:hover {
+	color: black;
+}
+
+#menu1 {
+	color: #3f8b93;
+	font-weight: bolder;
+	font-size: 20px;
+}
+
+.meny1 {
+	list-style-type: none;
+	font-family: Calibri; 
+	margin-right:65px;
+	font-style: italic;
+	font-size: 25px;
+	float: left;
+	font-weight: lighter;
+	text-decoration: none;
+}
+
+
+/* Video bakgrund */
+
+video#bgvid { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%; 
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(Mglogo.png) no-repeat;
+    background-size: cover; 
+}
