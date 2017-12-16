@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="Style2.css">
+
+    <title>
+        Contact | Mikaela Gustin Interiors
+    </title>
+</head>
+<body>
+    <div id="header"><a href="Website2.html"><img class="logo" src="MGINB.png"></a></div>
+
+<!--meny-->
+
+<div style="text-align: center; padding-top: 10px; padding-bottom: 10px">
+<div style="display: inline-block; text-align: left;"> 
+        <ul>    
+    <li class="meny1"><a id="menu1" href="projects.html">PROJECTS</a></li>
+    <li class="meny1"><a id="menu1" href="about.html">ABOUT</a></li>
+    <li class="meny1"><a id="vald" href="contact.html">CONTACT</a></li>
+        </ul>
+</div>
+</div>
+
+         <div id="fyll"></div>
+         <div id="fyll"></div>
+
+<div id="about">
+        <img id="aboutpic" src="portrait.jpg">
+        <div id="fyll"></div>
+        <p> MIKAELA GUSTIN <br />
+      CREATIVE DIRECTOR, INTERIOR DESIGNER<br />
+  mikaela.gustin@hyperisland.se <br />
+  Tel +46 707 70 02 21</span></p>
+        <div id="fyll"></div>
+        <p id="about-p"></p>
+</div>
+
+
+<p class="adress" style="padding-top: 400px; padding-bottom: 20px; padding-left: 20px;"> MIKAELA GUSTIN INTERIORS<br>SKEPPARGATAN 25 C <br> 114 52 STOCKHOLM, SWEDEN</p>
+
+<div id="googleMap" style="width:100%;height:400px; position: relative;"></div>
+
+
+<div id="contactform"><form>
+GET IN TOUCH<br>
+  <input type="text" name="NAME><br>
+  <br>
+  <input type="text" name="EMAIL">
+  <br>
+  <input type="text" name="EMAIL">
+</form></div>
+<script>
+function myMap() {
+var mapProp= {
+    center:new google.maps.LatLng(59.335762,18.084251),
+    zoom:15,
+};
+var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+var marker = new google.maps.Marker({position: {lat:59.334452,lng:18.083143}});
+
+marker.setMap(map);
+
+
+var infowindow = new google.maps.InfoWindow({
+  content:"Mikaela Gustin Interiors"
+  });
+
+infowindow.open(map,marker);
+}
+
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_ieywD2bjT0ARgLVjAEv7RalStf6g3nM&callback=myMap"></script>
+    
+</body>
+</html>

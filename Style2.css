@@ -1,0 +1,259 @@
+
+/*header*/
+img.logo {
+
+	width: 20%;
+    height: auto;
+	display: block;
+    margin: auto;
+    padding-top: 10px;
+
+
+}
+
+#me {
+	font-family: Helvetica Neue;
+	font-size: 16px;
+	
+
+}
+
+
+#header {
+
+	padding-top: 40px;
+	position: absolute;
+	   max-width: 1441px;
+    margin: 0 auto;
+    padding: 0 35px;
+    position: relative;
+
+}
+
+ul {
+	padding-left: 50px
+}
+
+p {
+	font-family: Helvetica Neue;
+color: black;
+font-size: 15px;
+}
+
+a {
+	text-decoration: none;
+	font-size: 15px;
+	}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#fyll {
+	width: 30px;
+	height: 30px;
+}
+
+.thumbnails img {
+	float: center;
+	width: 450px;
+	height: auto;
+
+}
+
+.para {
+	width: 600px;
+	margin: 0 auto;
+	background: white;
+	font-size: 15px;
+	padding: 25px;
+	font-family: Calibri;
+	height: 200px;
+}
+
+.para1 {
+	width: 600px;
+	margin: 0 auto;
+	background: white;
+	font-size: 15px;
+	padding: 25px;
+	font-family: Calibri;
+	height: 140px;
+}
+
+.parallax {
+background: url(img/Styling.jpg) no-repeat center;
+background-size: cover;
+background-attachment: fixed;
+height: 500px;
+}
+
+.parallax2 {
+background: url(img/renovation.jpg) no-repeat center;
+background-size: cover;
+background-attachment: fixed;
+height: 500px;
+}
+
+h1 {
+	color: black;
+	font-weight: normal;
+	text-align: center;
+
+}
+
+.parallax3 {
+background: url(img/Consultation.jpg) no-repeat center;
+background-size: cover;
+background-attachment: fixed;
+height: 500px;
+}
+/*ABOUT*/
+
+#aboutpic {
+	width: 15%;
+    height: auto;
+	display: block;
+    margin: auto;
+}
+
+#about img {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.headline {
+	font-family: Avenir Next;
+	font-size: 20px;
+	color: #646363;
+	font-weight: bold;
+}
+
+
+#about {
+	 position:absolute; 
+	 width:100%; 
+	 height:100%;
+	 top-padding: 150px;
+	 text-align: center;
+}
+
+#about-p {
+	 width:30%; 
+	 height:100%;
+	 margin-left: 35%;
+	 margin-right: 50%; 
+	 top-padding: 150px;
+	 text-align: center;
+}
+
+.full {
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+.coworker {
+    min-height: 450px;
+    margin-top: -60px;
+    padding-top: 130px;
+}
+
+div {
+	display: block;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+/*Menyn Startsidan*/
+
+#menu2:hover {
+	color: #606060;
+}
+
+#menu2 {
+	color: white;
+}
+
+.meny2 {
+	list-style-type: none;
+	font-family: Calibri; 
+	margin-right:60px;
+	font-size: 25px;
+	float: left;
+	font-weight: lighter;
+}
+
+
+#adress {
+font-family: Helvetica Neue;
+font-size: 15px;
+padding-top: 500px;
+padding-bottom: 20px;
+padding-left: 20px;
+
+}
+/*Meny Projekt*/
+
+#vald {
+	color: black;
+}
+
+#menu1:hover {
+	color: #646363;
+}
+
+#menu1 {
+	color: #e2e2e2;
+}
+
+.meny1 {
+	list-style-type: none;
+	font-family: Calibri; 
+	margin-right:60px;
+	font-size: 25px;
+	float: left;
+	font-weight: lighter;
+}
+
+/*Projektsidan*/ 
+
+#main {
+	width: 900px;
+	height: 600px;
+	margin: 
+}
+
+#first {
+	background-color: #c1c1c1;
+	width: 600px;
+	height: 600px; 
+}
+
+/* Google Maps
+
+
+/* Video bakgrund */
+
+video#bgvid { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%; 
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(Mglogo.png) no-repeat;
+    background-size: cover; 
+}
